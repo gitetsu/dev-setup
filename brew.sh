@@ -164,52 +164,56 @@ brew install tree
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
-brew cask accessmenubarapps
-brew cask alfred
-brew cask appcleaner
-brew cask bettertouchtool
-brew cask betterzipql
-brew cask caffeine
-brew cask controlplane
-brew cask copyq
-brew cask dash
-brew cask day-o
-brew cask diskwave
-brew cask dterm
-brew cask firefoxdeveloperedition
-brew cask flash
-brew cask font-camingocode
-brew cask font-ricty-diminished
-brew cask google-chrome
-brew cask hammerspoon
-brew cask iterm2
-brew cask karabiner-elements
-brew cask key-codes
-brew cask keyboardcleantool
-brew cask libreoffice
-brew cask loading
-brew cask macs-fan-control
-brew cask macvim
-brew cask marp
-brew cask microsoft-office-ja
-brew cask mysqlworkbench
-brew cask postman
-brew cask qlcolorcode
-brew cask qlimagesize
-brew cask qlmarkdown
-brew cask qlstephen
-brew cask quicklook-csv
-brew cask quicklook-json
-brew cask quicksilver
-brew cask rambox
-brew cask shortcat
-brew cask the-unarchiver
-brew cask vagrant
-brew cask vagrant-manager
-brew cask virtualbox
-brew cask virtualbox-extension-pack
-brew cask vivaldi
+brew tap caskroom/versions
+brew cask install accessmenubarapps
+brew cask install alfred
+brew cask install appcleaner
+brew cask install bettertouchtool
+brew cask install betterzip
+brew cask install caffeine
+brew cask install controlplane
+brew cask install copyq
+brew cask install dash
+brew cask install day-o
+brew cask install diskwave
+brew cask install dterm
+brew cask install firefox-developer-edition
+brew cask install flash
+brew cask install google-chrome
+brew cask install hammerspoon
+brew cask install iterm2
+brew cask install karabiner-elements
+brew cask install key-codes
+brew cask install keyboardcleantool
+brew cask install libreoffice
+brew cask install loading
+brew cask install macs-fan-control
+brew cask install macvim
+brew cask install marp
+brew cask install microsoft-office-ja
+brew cask install mysqlworkbench
+brew cask install postman
+brew cask install qlcolorcode
+brew cask install qlimagesize
+brew cask install qlmarkdown
+brew cask install qlstephen
+brew cask install quicklook-csv
+brew cask install quicklook-json
+brew cask install quicksilver
+brew cask install rambox
+brew cask install shortcat
+brew cask install the-unarchiver
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install vivaldi
 
+brew tap caskroom/fonts
+brew cask install font-camingocode
+brew cask install font-ricty-diminished
+
+mas signin
 mas install 1059074180 # WeatherBug
 mas install 986304488 # Kiwi for Gmail
 # Install Docker, which requires virtualbox
